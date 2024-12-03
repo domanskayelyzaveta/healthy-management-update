@@ -159,7 +159,6 @@ const Footer = ({ handleSetActiveLink }) => {
             <Item href="mailto:healthy.managements@gmail.com">
               healthy.managements@gmail.com
             </Item>
-            <Item href="tel:+380673160556">+380 673 160 556</Item>
           </TelEmail>
         </ContactsFooter>
       </FooterContainer>
