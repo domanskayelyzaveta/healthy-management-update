@@ -68,8 +68,8 @@ const Footer = ({ handleSetActiveLink }) => {
                 Послуги
               </NavFooterBtn>
               <NavFooterBtn
-                href="#mentoring"
-                onClick={(e) => handleSetActiveLink("mentoring", e)}
+                href="#diagnostics"
+                onClick={(e) => handleSetActiveLink("diagnostics", e)}
               >
                 Менторство
               </NavFooterBtn>
@@ -117,8 +117,8 @@ const Footer = ({ handleSetActiveLink }) => {
                 Послуги
               </NavFooterBtn>
               <NavFooterBtn
-                href="#mentoring"
-                onClick={(e) => handleSetActiveLink("mentoring", e)}
+                href="#diagnostics"
+                onClick={(e) => handleSetActiveLink("diagnostics", e)}
               >
                 Менторство
               </NavFooterBtn>
