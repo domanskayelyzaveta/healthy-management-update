@@ -38,7 +38,6 @@ export const SectionAboutStudioTitle = styled.h2`
   @media screen and (min-width: 1920px) {
     font-size: 48px;
     line-height: 1.16;
-    margin-bottom: 40px;
   }
 `;
 
