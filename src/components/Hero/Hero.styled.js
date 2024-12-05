@@ -45,8 +45,8 @@ export const SectionHero = styled.section`
     //   );
     // }
 
-    padding-top: 234px;
-    padding-bottom: 234px;
+    padding-top: 192px;
+    padding-bottom: 192px;
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -57,9 +57,9 @@ export const SectionHero = styled.section`
 
   @media screen and (min-width: 1440px) {
     background-image: url(${HeroDesktop1440Foto});
-    margin-top: 103px;
-    padding-top: 236px;
-    padding-bottom: 236px;
+    margin-top: 104px;
+    padding-top: 208px;
+    padding-bottom: 208px;
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -70,9 +70,9 @@ export const SectionHero = styled.section`
 
   @media screen and (min-width: 1920px) {
     background-image: url(${HeroDesktop1920Foto1x});
-    margin-top: 133px;
-    padding-top: 296px;
-    padding-bottom: 296px;
+    margin-top: 136px;
+    padding-top: 248px;
+    padding-bottom: 248px;
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -139,7 +139,7 @@ export const SectionHeroText = styled.h2`
 export const SectionHeroTextUl = styled.ul`
   margin-left: 20px;
   margin-top: 24px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 
   @media screen and (min-width: 768px) {
     margin-left: 30px;
@@ -188,10 +188,11 @@ export const ListItem = styled.li`
 export const SectionHeroDiv = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
+    gap: 24px;
   }
 `;
 
@@ -209,7 +210,7 @@ const SectionHeroLinkBase = styled.a`
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  transition: background 0.5s ease, color 0.5s ease;
+  transition: all 0.3s linear;
 
   &:hover,
   &:focus {
@@ -244,8 +245,8 @@ export const SectionHeroLinkContact = styled(SectionHeroLinkBase)`
 `;
 
 export const SectionHeroLinkServices = styled(SectionHeroLinkBase)`
-  color: var(--system-default-10);
-  border: 1px solid var(--system-default-10);
+  color: var(--typography-bluedark);
+  background: var(--system-default-10);
 
   @media screen and (min-width: 768px) {
     max-width: 0;
@@ -255,7 +256,6 @@ export const SectionHeroLinkServices = styled(SectionHeroLinkBase)`
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    transition: background 0.5s ease, color 0.5s ease;
   }
 
   @media screen and (min-width: 1440px) {
