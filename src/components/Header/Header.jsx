@@ -32,7 +32,7 @@ const Header = ({ handleSetActiveLink }) => {
       "home",
       "aboutUs",
       "services",
-      "mentoring",
+      "diagnostics",
       "projects",
       "contact",
     ];

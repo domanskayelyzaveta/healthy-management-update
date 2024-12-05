@@ -321,12 +321,13 @@ export const StyledForWhoUl = styled.ul`
 
   @media screen and (min-width: 1440px) {
     line-height: 18px;
-    width: 748px;
+    width: 628px;
   }
 
   @media screen and (min-width: 1920px) {
     font-size: 16px;
     line-height: 24px;
+    width: 748px;
   }
 `;
 

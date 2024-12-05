@@ -35,7 +35,7 @@ import {
 
 const Mentor = ({ handleSetLink }) => {
   return (
-    <StyledSection id="mentoring" className="container">
+    <StyledSection id="diagnostics" className="container">
       <ImgSectionWrapper>
         <div>
           <MediaQuery minWidth={1920}>
