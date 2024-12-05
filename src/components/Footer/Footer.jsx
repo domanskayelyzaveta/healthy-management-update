@@ -26,6 +26,9 @@ const Footer = ({ handleSetActiveLink }) => {
     "(min-width: 1440px) and (max-width: 1919px)"
   );
 
+  const currentDate = new Date();
+  const year = currentDate.getFullYear();
+
   const handleOpenModal = () => {
     setIsModalOpen(true);
   };
@@ -120,7 +123,7 @@ const Footer = ({ handleSetActiveLink }) => {
                 href="#diagnostics"
                 onClick={(e) => handleSetActiveLink("diagnostics", e)}
               >
-                Менторство
+                Діагностика
               </NavFooterBtn>
               <NavFooterBtn
                 href="#projects"
@@ -163,7 +166,9 @@ const Footer = ({ handleSetActiveLink }) => {
         </ContactsFooter>
       </FooterContainer>
       <Paragraph>
-        <Text>© 2023 healthy management. All rights reserved</Text>
+        <Text>
+          © <span>{year}</span> healthy management. All rights reserved
+        </Text>
       </Paragraph>
     </FooterBg>
   );
