@@ -20,8 +20,8 @@ const Services = ({ handleSetActiveLink }) => {
         <ServicesTitle>Послуги</ServicesTitle>
         <ServicesText>
           Будуємо ефективні <Span>стратегії здорового менеджменту</Span> для
-          бізнесів. Розвивайте свій бізнес за допомогою ефективних стратегій
-          здорового менеджменту.
+          медичних бізнесів. Розвивайте свій бізнес за допомогою ефективних
+          стратегій здорового менеджменту.
         </ServicesText>
         <ServicesList>
           {servicesData?.map((element) => (
