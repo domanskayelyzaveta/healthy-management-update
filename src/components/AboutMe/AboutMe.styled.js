@@ -62,24 +62,23 @@ export const SectionAboutMeImg = styled.img`
 `;
 
 export const SectionAboutMeDivOl = styled.div`
-  max-width: 327px;
+  width: 327px;
   padding: 24px;
   border-radius: 16px;
   background: var(--background-white, #fcfcfc);
   box-shadow: 0px 0px 8px 0px rgba(27, 54, 65, 0.08);
 
   @media screen and (min-width: 768px) {
-    max-width: 0;
-    min-width: 688px;
+    width: 688px;
     padding: 40px;
   }
 
   @media screen and (min-width: 1440px) {
-    min-width: 628px;
+    width: 628px;
     padding: 40px;
   }
   @media screen and (min-width: 1920px) {
-    min-width: 828px;
+    width: 828px;
     padding: 80px;
   }
 `;
