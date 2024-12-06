@@ -41,7 +41,7 @@ export const PrinciplesDiv = styled.div`
 export const PrinciplesContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
   margin-bottom: 24px;
 
   @media screen and (min-width: 768px) {
@@ -49,13 +49,13 @@ export const PrinciplesContentWrapper = styled.div`
   }
 
   @media screen and (min-width: 1440px) {
-    gap: 24px;
+    /* gap: 24px; */
     margin-bottom: 24px;
   }
 
   @media screen and (min-width: 1920px) {
-    gap: 40px;
-    margin-bottom: 40px;
+    gap: 16px;
+    /* margin-bottom: 24px; */
   }
 `;
 
@@ -105,10 +105,10 @@ export const PrinciplesText = styled.p`
 export const PrinciplesList = styled.ul`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
 
-  @media screen and (min-width: 1920px) {
-    gap: 24px;
+  @media screen and (min-width: 1440px) {
+    gap: 16px;
   }
 `;
 
