@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 
 export const ListItem = styled.li`
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,7 +14,7 @@ export const ListItem = styled.li`
   box-shadow: 0px 0px 8px 0px rgba(27, 54, 65, 0.08);
   background-color: var(--background-white);
 
-  overflow: hidden;
+  // overflow: hidden;
   position: relative;
   @media screen and (min-width: 768px) {
     padding: 40px;

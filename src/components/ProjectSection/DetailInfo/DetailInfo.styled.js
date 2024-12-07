@@ -9,6 +9,12 @@ export const Wrapper = styled.div`
   color: var(--background-whitegrey, #f4f4f6);
   @media screen and (min-width: 768px) {
     padding: 40px;
+
+  @media screen and (min-width: 1440px) {
+    padding: 24px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding: 40px;
   }
 `;
 
@@ -28,6 +34,7 @@ export const Category = styled.h3`
     display: inline;
   }
   @media screen and (min-width: 1440px) {
+    width: fit-content;
     line-height: calc(24 / 20);
     display: ${(props) => (props.symbols > 20 ? "block" : "inline")};
   }
