@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
 
   color: var(--background-whitegrey, #f4f4f6);
+
   @media screen and (min-width: 768px) {
     padding: 40px;
 

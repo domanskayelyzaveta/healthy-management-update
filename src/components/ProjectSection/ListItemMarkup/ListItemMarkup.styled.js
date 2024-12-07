@@ -45,7 +45,8 @@ export const HiddenInfo = styled.div`
   opacity: ${(props) => (props.isVisible ? 1 : 0)};
   /* transform: translateY(${(props) => (props.isVisible ? "0" : "110%")}); */
 
-  height: 100%;
+  // height: 100%;
+  min-height: 772px;
   width: 100%;
 
   position: absolute;

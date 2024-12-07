@@ -17,6 +17,8 @@ export const ListItem = styled.li`
   // overflow: hidden;
   position: relative;
   @media screen and (min-width: 768px) {
+    overflow-y: hidden;
+
     padding: 40px;
     height: 676px;
 

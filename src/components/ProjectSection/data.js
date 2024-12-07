@@ -238,6 +238,7 @@ export default [
       },
       {
         title: "Посилання на проєкт",
+        link: "https://www.actforhealth.in.ua/materialy/posibnik-dlya-stvorennya-strategiyi-zdorove-roboche-misce",
       },
     ],
   },
