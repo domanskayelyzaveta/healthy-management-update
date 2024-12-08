@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
-import Mentor from "./components/Mentor/Mentor";
+import Diagnostics from "./components/Diagnostics/Diagnostics";
 import MentoringSession from "./components/MentoringSession/MentoringSession";
 import PersonalSupport from "./components/PersonalSupport/PersonalSupport";
 import ProjectSection from "./components/ProjectSection/ProjectSection";
@@ -62,7 +62,7 @@ function App() {
         <WhyChooseUs />
         <WorkPrinciples />
         <Services handleSetActiveLink={handleSetActiveLink} />
-        <Mentor handleSetLink={handleSetActiveLink} />
+        <Diagnostics handleSetLink={handleSetActiveLink} />
         <MentoringSession handleSetLink={handleSetActiveLink} />
         <PersonalSupport handleSetLink={handleSetActiveLink} />
         <ProjectSection handleSetActiveLink={handleSetActiveLink} />

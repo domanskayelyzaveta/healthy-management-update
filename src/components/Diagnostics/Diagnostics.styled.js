@@ -1,18 +1,12 @@
 import styled from "@emotion/styled";
 
 export const StyledSection = styled.section`
-  padding: 40px 24px;
-
-  @media screen and (min-width: 768px) {
-    padding: 40px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    padding: 40px 80px;
-  }
+  padding-top: 40px;
+  padding-bottom: 40px;
 
   @media screen and (min-width: 1920px) {
-    padding: 80px 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 `;
 
@@ -39,19 +33,19 @@ export const ImgSectionWrapper = styled.div`
 export const MentorstvoWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
 
   @media screen and (min-width: 768px) {
     max-width: 688px;
-    gap: 24px;
   }
 
   @media screen and (min-width: 1440px) {
     max-width: 628px;
+    height: 324px;
   }
 
   @media screen and (min-width: 1920px) {
     max-width: 828px;
+    height: 468px;
     align-items: flex-start;
   }
 `;
@@ -67,18 +61,18 @@ export const AboutWrapper = styled.div`
   box-shadow: 0px 0px 8px 0px rgba(27, 54, 65, 0.08);
 
   @media screen and (min-width: 768px) {
-    max-width: 332px;
-    height: 462px;
+    width: 332px;
+    gap: 8px;
   }
 
   @media screen and (min-width: 1440px) {
-    max-width: 628px;
-    height: 292px;
+    width: 628px;
+    height: 316px;
   }
 
   @media screen and (min-width: 1920px) {
-    gap: 24px;
-    max-width: 828px;
+    gap: 16px;
+    width: 828px;
     height: 392px;
     padding: 40px;
   }
@@ -88,6 +82,7 @@ export const TitleH2 = styled.h2`
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+  margin-bottom: 16px;
   color: var(--typography-black);
 
   @media screen and (min-width: 768px) {
@@ -148,22 +143,11 @@ export const TitleH3White = styled.h3`
   }
 `;
 
-export const ParagraphWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  min-width: 320px;
-
-  @media screen and (min-width: 1920px) {
-    gap: 20px;
-    margin-bottom: 56px;
-  }
-`;
-
 export const Paragraph = styled.p`
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
+  margin-bottom: 24px;
   color: var(--typography-bluedark);
 
   &:not(:first-of-type) {
@@ -172,10 +156,12 @@ export const Paragraph = styled.p`
 
   @media screen and (min-width: 768px) {
     font-size: 18px;
+    line-height: 24px;
   }
 
   @media screen and (min-width: 1440px) {
     line-height: 22px;
+    margin-bottom: 40px;
 
     &:not(:first-of-type) {
       margin-bottom: 0px;
@@ -194,29 +180,25 @@ export const StyledMentorButton = styled.a`
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
-
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   padding: 8px 24px;
   color: var(--typography-bluedark);
-
   height: 56px;
   border-radius: 16px;
-  background-color: transparent;
+  background-color: var(--background-white);
   border: 1px solid var(--background-bluedark);
   box-shadow: 0px 0px 8px 0px rgba(27, 54, 65, 0.08);
 
   &:hover,
-  &focus {
+  &:focus {
     font-weight: 600;
-    background: var(--background-white);
   }
 
   @media screen and (min-width: 768px) {
     width: 260px;
     margin-bottom: 16px;
-
     font-size: 15px;
     line-height: 22px;
   }
@@ -235,15 +217,12 @@ export const StyledMentorButton = styled.a`
 export const DescriptionWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  justify-content: space-between;
+  /* gap: 24px; */
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
     align-items: center;
-  }
-
-  @media screen and (min-width: 1920px) {
-    gap: 24px;
   }
 `;
 
@@ -251,26 +230,27 @@ export const ForWHoWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
-
+  gap: 24px;
   padding: 24px;
   border-radius: 16px;
   box-shadow: 0px 0px 8px 0px rgba(27, 54, 65, 0.08);
   background-color: var(--background-bluedark);
 
   @media screen and (min-width: 768px) {
-    max-width: 332px;
-    height: 462px;
+    width: 332px;
+    gap: 16px;
+    height: 492px;
   }
 
   @media screen and (min-width: 1440px) {
-    max-width: 628px;
-    height: 292px;
+    width: 628px;
+    height: 316px;
+    gap: 24px;
   }
 
   @media screen and (min-width: 1920px) {
-    max-width: 828px;
-    height: auto;
+    width: 828px;
+    height: 392px;
     padding: 40px;
     gap: 24px;
     flex: 1 0 0;
@@ -281,7 +261,6 @@ export const StyledAboutUl = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 8px;
-
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -306,7 +285,7 @@ export const StyledForWhoUl = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-bottom: 8px;
+  margin-top: 8px;
 
   font-size: 14px;
   font-weight: 500;
@@ -321,44 +300,36 @@ export const StyledForWhoUl = styled.ul`
 
   @media screen and (min-width: 1440px) {
     line-height: 18px;
-    width: 628px;
   }
 
   @media screen and (min-width: 1920px) {
     font-size: 16px;
     line-height: 24px;
-    width: 748px;
   }
 `;
 
 export const StyledLi = styled.li`
   display: flex;
-  gap: 10px;
+  gap: 4px;
+  width: auto;
 
   &::before {
     content: "\\2022";
     color: var(--primary-bluedark);
     display: inline-block;
-    margin-left: 0.5em;
-  }
-
-  @media screen and (min-width: 1920px) {
-    padding-left: 24px;
+    margin-left: 4px;
   }
 `;
 
 export const StyledLiWhite = styled.li`
   display: flex;
-  gap: 10px;
+  gap: 8px;
+  width: auto;
 
   &::before {
     content: "\\2022";
     display: inline-block;
-    margin-left: 0.5em;
+    margin-left: 4px;
     color: var(--typography-white);
-  }
-
-  @media screen and (min-width: 1920px) {
-    padding-left: 24px;
   }
 `;
