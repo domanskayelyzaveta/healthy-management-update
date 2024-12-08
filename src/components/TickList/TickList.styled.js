@@ -4,7 +4,8 @@ import { css } from "@emotion/react";
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  // gap: 16px;
+  gap: 8px;
 `;
 
 export const Title = styled.h4`

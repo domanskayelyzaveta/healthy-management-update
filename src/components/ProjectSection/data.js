@@ -4,6 +4,11 @@ import cures from "../../images/desktop/cures1x.webp";
 import clinic from "../../images/desktop/clinic1x.webp";
 import kmklam from "../../images/desktop/kmklam1x.webp";
 import symmetrica from "../../images/desktop/symmetrica1x.webp";
+import podcast from "../../images/desktop/podcast1x.webp";
+import philosophia from "../../images/desktop/philosophia1x.webp";
+import healthyandhappy from "../../images/desktop/healthy_happy1x.webp";
+import healthyworkplace from "../../images/desktop/healthy_workplace1x.webp";
+import network from "../../images/desktop/medical_network1x.webp";
 
 export default [
   //Medialt
@@ -45,7 +50,7 @@ export default [
   },
   // Здорове робоче місце
   {
-    image: medialt,
+    image: healthyworkplace,
     category: "Проєкт “Здорове робоче місце”",
     title: "Участь в проєктній команді в ролі експертки, тренерки та менторки",
     about: [
@@ -70,7 +75,7 @@ export default [
   },
   // Мережа медичних центрів «Healthy&Happy»
   {
-    image: medialt,
+    image: healthyandhappy,
     category: "Мережа медичних центрів «Healthy&Happy»",
     title: "Діагностика медичного центру",
     about: [
@@ -95,10 +100,11 @@ export default [
         about: [
           "Зміна організаціної структуру медичного центру",
           "Формування нового відділу маркетингу та зміна підрядників",
-          "Підібрана команда маркетингового супроводу",
-          "Розроблені вектори розвитку",
-          "Розроблений та впроваджений новий сайт",
-          "Підібрана команда маркетингового супроводу",
+          "Оновлення сайту та зміна концепції ведення соціальних мереж",
+          "Оптимізації роботи сервісу та контакт-центру",
+          "Створення системи конверсійних показників та звітів в МІС Доктор Елекс",
+          "Проведено навчання по можливостям МІС",
+          "Налагоджена робота IT відділу по взаємодії з маркетингом, сервісом та МІС",
         ],
       },
     ],
@@ -171,7 +177,7 @@ export default [
 
   // Мережа медичних центрів «R+ medical network»
   {
-    image: medialt,
+    image: network,
     category: "Мережа медичних центрів «R+ medical network»",
     title: "Проєкт «Бережи себе, RIDNA»",
     about: [
@@ -199,7 +205,7 @@ export default [
   },
   // Медичний центр «Філософія здоров’я»
   {
-    image: medialt,
+    image: philosophia,
     category: "Медичний центр «Філософія здоров’я»",
     title: "Діагностика бізнес-процесів",
     about: [
@@ -222,7 +228,7 @@ export default [
   },
   // Подкасти в партнерстві з DOC.UA
   {
-    image: medialt,
+    image: podcast,
     category: "Подкасти в партнерстві з DOC.UA",
     title: "Авторка та ведуча подкастів “Відверто про медичний бізнес”",
     about: [
