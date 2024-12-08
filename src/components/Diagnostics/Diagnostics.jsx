@@ -31,42 +31,44 @@ const Diagnostics = ({ handleSetLink }) => {
   return (
     <StyledSection id="diagnostics" className="container">
       <ImgSectionWrapper>
-        <MediaQuery minWidth={1920}>
-          <img
-            srcSet={`${diagnostics_1920} 1x, ${diagnostics_19202x} 2x`}
-            sizes="(min-width: 1920px) 1920px"
-            src={diagnostics_1920}
-            alt="Ольга Поліщук - ваш ментор в медичній галузі"
-            loading="lazy"
-          />
-        </MediaQuery>
-        <MediaQuery maxWidth={767}>
-          <img
-            srcSet={`${mobDiagnostics} 1x, ${mobDiagnostics2x} 2x`}
-            sizes="(max-width: 767px) 100vw"
-            src={mobDiagnostics}
-            alt="Ольга Поліщук - ваш ментор в медичній галузі"
-            loading="lazy"
-          />
-        </MediaQuery>
-        <MediaQuery minWidth={768} maxWidth={1439}>
-          <img
-            srcSet={`${diagnosticsTablet} 1x, ${diagnosticsTablet2x} 2x`}
-            sizes="(min-width: 768px) 768px"
-            src={diagnosticsTablet}
-            alt="Ольга Поліщук - ваш ментор в медичній галузі"
-            loading="lazy"
-          />
-        </MediaQuery>
-        <MediaQuery minWidth={1440} maxWidth={1919}>
-          <img
-            srcSet={`${diagnostics_1440} 1x, ${diagnostics_14402x} 2x`}
-            sizes="(min-width: 1440px) 100vw (max-width: 1919px) 100vw"
-            src={diagnostics_1440}
-            alt="Ольга Поліщук - ваш ментор в медичній галузі"
-            loading="lazy"
-          />
-        </MediaQuery>
+        <div>
+          <MediaQuery minWidth={1920}>
+            <img
+              srcSet={`${diagnostics_1920} 1x, ${diagnostics_19202x} 2x`}
+              sizes="(min-width: 1920px) 1920px"
+              src={diagnostics_1920}
+              alt="Ольга Поліщук - ваш ментор в медичній галузі"
+              loading="lazy"
+            />
+          </MediaQuery>
+          <MediaQuery maxWidth={767}>
+            <img
+              srcSet={`${mobDiagnostics} 1x, ${mobDiagnostics2x} 2x`}
+              sizes="(max-width: 767px) 100vw"
+              src={mobDiagnostics}
+              alt="Ольга Поліщук - ваш ментор в медичній галузі"
+              loading="lazy"
+            />
+          </MediaQuery>
+          <MediaQuery minWidth={768} maxWidth={1439}>
+            <img
+              srcSet={`${diagnosticsTablet} 1x, ${diagnosticsTablet2x} 2x`}
+              sizes="(min-width: 768px) 768px"
+              src={diagnosticsTablet}
+              alt="Ольга Поліщук - ваш ментор в медичній галузі"
+              loading="lazy"
+            />
+          </MediaQuery>
+          <MediaQuery minWidth={1440} maxWidth={1919}>
+            <img
+              srcSet={`${diagnostics_1440} 1x, ${diagnostics_14402x} 2x`}
+              sizes="(min-width: 1440px) 100vw (max-width: 1919px) 100vw"
+              src={diagnostics_1440}
+              alt="Ольга Поліщук - ваш ментор в медичній галузі"
+              loading="lazy"
+            />
+          </MediaQuery>
+        </div>
         <MentorstvoWrapper>
           <TitleH2>Діагностика</TitleH2>
           <Paragraph>

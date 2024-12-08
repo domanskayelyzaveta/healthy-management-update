@@ -35,16 +35,16 @@ export const MentorstvoWrapper = styled.div`
   flex-direction: column;
 
   @media screen and (min-width: 768px) {
-    max-width: 688px;
+    width: 688px;
   }
 
   @media screen and (min-width: 1440px) {
-    max-width: 628px;
+    width: 628px;
     height: 324px;
   }
 
   @media screen and (min-width: 1920px) {
-    max-width: 828px;
+    width: 828px;
     height: 468px;
     align-items: flex-start;
   }
@@ -218,7 +218,7 @@ export const DescriptionWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* gap: 24px; */
+  gap: 24px;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
