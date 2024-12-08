@@ -17,19 +17,19 @@ const ProjectSection = ({ handleSetActiveLink }) => {
 
   const [projectList, setProjectList] = useState(
     screenWidth === "mobile" || screenWidth === "tablet"
-      ? [...data.slice(0, 1)]
+      ? [...data.slice(0, 3)]
       : [...data]
   );
   useEffect(() => {
     if (screenWidth === "mobile" || screenWidth === "tablet") {
-      setProjectList([...data.slice(0, 1)]);
+      setProjectList([...data.slice(0, 3)]);
     } else {
       setProjectList([...data]);
     }
   }, [screenWidth]);
   const handleListChange = (e) => {
-    if (projectList.length > 2) {
-      setProjectList((prev) => prev.slice(0, 1));
+    if (projectList.length > 3) {
+      setProjectList((prev) => prev.slice(0, 3));
       handleSetActiveLink("projects", e);
     } else {
       setProjectList([...data]);
@@ -46,13 +46,13 @@ const ProjectSection = ({ handleSetActiveLink }) => {
       </List>
       {(screenWidth === "mobile" || screenWidth === "tablet") && (
         <ActionBtn onClick={handleListChange}>
-          {projectList.length > 2 ? "Менше проєктів" : "Більше проєктів"}
+          {projectList.length > 3 ? "Менше проєктів" : "Більше проєктів"}
           <Icon>
             <use
               href={
                 icon +
                 `${
-                  projectList.length > 2 ? "#icon-arrowup" : "#icon-arrowdown"
+                  projectList.length > 3 ? "#icon-arrowup" : "#icon-arrowdown"
                 }`
               }
             ></use>

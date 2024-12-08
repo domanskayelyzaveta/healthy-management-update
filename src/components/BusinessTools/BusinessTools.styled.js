@@ -15,7 +15,7 @@ export const BusinessToolsWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 24px;
+  gap: 16px;
   align-self: stretch;
   width: 100%;
   border-radius: 16px;
@@ -29,6 +29,7 @@ export const BusinessToolsWrapper = styled.div`
 
   @media screen and (min-width: 1440px) {
     gap: 24px;
+    padding: 40px;
   }
 
   @media screen and (min-width: 1920px) {
@@ -73,7 +74,6 @@ export const ListTools = styled.ul`
 
   @media screen and (min-width: 1440px) {
     flex-direction: row;
-    padding: 24px 0px;
     gap: 24px;
   }
 `;

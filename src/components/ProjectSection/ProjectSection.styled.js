@@ -37,7 +37,8 @@ export const Title = styled.h2`
 
 export const List = styled.ul`
   display: flex;
-  gap: 24px;
+  // gap: 24px;
+  gap: 16px;
   flex-wrap: wrap;
 `;
 
