@@ -12,7 +12,7 @@ const BusinessTools = () => {
     <Section className="container">
       <BusinessToolsWrapper>
         <BusinessToolsTitle>
-          Бізнес <span>інструменти</span>, які використувуємо в партнерстві
+          Бізнес <span>інструменти</span>, які використовуємо в партнерстві
         </BusinessToolsTitle>
         <ListTools>
           {data.map((item) => {

@@ -4,7 +4,8 @@ import { css } from "@emotion/react";
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  // gap: 16px;
+  gap: 8px;
 `;
 
 export const Title = styled.h4`
@@ -78,16 +79,6 @@ export const List = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 8px;
-
-  @media screen and (min-width: 768px) {
-    gap: 10px;
-  }
-  @media screen and (min-width: 1440px) {
-    gap: 14px;
-  }
-  @media screen and (min-width: 1920px) {
-    gap: 8px;
-  }
 `;
 
 export const ListItem = styled.li`
