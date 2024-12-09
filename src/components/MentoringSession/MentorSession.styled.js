@@ -71,6 +71,7 @@ export const MentorSessionWrapper = styled.div`
 
   @media screen and (min-width: 1920px) {
     margin-bottom: 40px;
+    // margin-bottom: 20px;
     gap: 40px;
   }
 `;
@@ -150,6 +151,8 @@ export const TitleH2 = styled.h2`
   @media screen and (min-width: 1920px) {
     font-size: 48px;
     line-height: 56px;
+
+    width: 748px;
   }
 `;
 
@@ -157,7 +160,7 @@ export const TitleH3 = styled.h3`
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
   color: var(--typography-bluedark);
 
   @media screen and (min-width: 768px) {
@@ -249,8 +252,10 @@ export const StyledOrderLink = styled.a`
 
   @media screen and (min-width: 1920px) {
     font-size: 16px;
-    margin-top: 28px;
+    margin-top: 24px;
     width: 260px;
+
+    margin-bottom: 0px;
   }
 `;
 
@@ -258,7 +263,7 @@ export const StyledSessionParagraph = styled.p`
   font-size: 16px;
   line-height: 1.5;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 
   color: var(--typography-bluedark);
 
@@ -317,7 +322,8 @@ export const StyledPersonalListItem = styled.li`
     &::before {
       content: "";
       position: absolute;
-      left: 6px;
+      // left: 6px;
+      left: 26px;
       top: 50%;
       transform: translateY(-50%);
       width: 3px;
