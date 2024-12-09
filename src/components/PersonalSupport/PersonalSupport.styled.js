@@ -79,7 +79,7 @@ export const StyledPersonalParagraph = styled.p`
   min-width: 200px;
 
   position: absolute;
-  text-align: center;
+  text-align: left;
   top: 50%;
   left: 47%;
   transform: translate(-50%, -50%);
@@ -91,15 +91,17 @@ export const StyledPersonalParagraph = styled.p`
     left: 42%;
   }
   @media screen and (min-width: 1440px) {
-    left: 54%;
-    width: fit-content;
+    left: 50%;
+    // width: fit-content;
+    // text-align: left;
+    width: 200px;
   }
 
   @media screen and (min-width: 1920px) {
     display: flex;
     justify-content: flex-start;
-    left: 60%;
-    width: 100%;
+    left: 44%;
+    // width: 100%;
     top: 50%;
 
     font-size: 16px;

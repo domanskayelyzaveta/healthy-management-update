@@ -28,15 +28,14 @@ const arrows = [
   "Заповнення брифу",
   "Діагностика ситуації",
   "Визначення зон росту",
-  "Менторинг",
-  "Рекомендації",
+  "Розробка стратегічного плану",
+  "Рекомендації по впровадженню",
 ];
 
 const questionList = [
-  "Зануритись в бізнес-процеси та зрозуміти, де є точки зростання",
-  "Зрозуміти що таке маркетинг та як він працює у вашому бізнесі",
-  "Супровід розробки та впровадження стратегій",
-  "Особисті питання по медичному менеджменту, маркетингу та розвитку, управління здоров'ям",
+  "Розробка стратегії бізнесу, маркетингу та сервісу клініки, медичного бізнесу",
+  "Розробка стратегій внутрішніх комунікацій медичного заклад",
+  "Розробка стратегій управління здоров'ям для бізнесів",
 ];
 
 const PersonalSupport = ({ handleSetLink }) => {
@@ -45,11 +44,11 @@ const PersonalSupport = ({ handleSetLink }) => {
       <PersonalSessionSectionWrapper>
         <MentorSessionWrapper>
           <PersonalWrapper>
-            <TitleH2>Персональний супровід</TitleH2>
+            <TitleH2>Стратегії</TitleH2>
             <PersonalParagraph>
-              Пропрацьовуємо ваші запити та досягаємо посавлених цілей
+              Для медичних центрів, клінік та бізнесів
             </PersonalParagraph>
-            <ProHourParagraph>від 2 місяців тісної взаємодії</ProHourParagraph>
+            <ProHourParagraph>від 1 місяця тісної взаємодії</ProHourParagraph>
             <StyledOrderLink
               onClick={(e) => handleSetLink("contact", e)}
               href="#contact"
@@ -71,7 +70,7 @@ const PersonalSupport = ({ handleSetLink }) => {
           </QuestionWrapper>
         </MentorSessionWrapper>
         <StyledSessionParagraph>
-          Шлях проведення менторського супроводу
+          Шлях проведення стратегічної сесії
         </StyledSessionParagraph>
         <ArrowPersonalWrapper>
           {arrows.map((item) => (
