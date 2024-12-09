@@ -96,6 +96,7 @@ export const FormWrapper = styled.div`
 
   @media screen and (min-width: 1440px) {
     width: 628px;
+    height: 744px;
   }
 
   @media screen and (min-width: 1920px) {
@@ -103,6 +104,7 @@ export const FormWrapper = styled.div`
     flex: 1 0 0;
     max-width: 828px;
     padding: 80px;
+    height: 100%;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 0) {
