@@ -150,6 +150,7 @@ const ContactsForm = () => {
                 loading="lazy"
               />
             </MediaQuery>
+            {/* width: 628px; height: 744px; */}
             <MediaQuery minWidth={1440} maxWidth={1919}>
               <Img
                 srcSet={`${computer14402x} 2x, ${computer1440Webp} 1x`}
@@ -158,6 +159,7 @@ const ContactsForm = () => {
                 src={`${computer1440Jpg}`}
                 alt="notebook"
                 loading="lazy"
+                style={{ width: "628px", height: "744px" }}
               />
             </MediaQuery>
             <MediaQuery minWidth={1920}>

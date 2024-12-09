@@ -29,7 +29,8 @@ export const Category = styled.h3`
   @media screen and (min-width: 1920px) {
     font-size: 24px;
     line-height: calc(32 / 24);
-    display: inline;
+    display: block;
+    width: fit-content;
   }
 `;
 
