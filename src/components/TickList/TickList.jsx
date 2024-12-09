@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import icon from "../../images/sprite.svg";
 import {
   List,
@@ -36,6 +37,14 @@ const TickList = ({
       )}
     </Wrapper>
   );
+};
+
+TickList.propTypes = {
+  title: PropTypes.string.isRequired,
+  about: PropTypes.arrayOf(PropTypes.string),
+  comment: PropTypes.string,
+  variant: PropTypes.string.isRequired,
+  additionalComment: PropTypes.bool,
 };
 
 export default TickList;

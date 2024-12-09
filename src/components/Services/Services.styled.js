@@ -20,16 +20,16 @@ export const ServicesContentWrapper = styled.div`
   height: auto;
 
   @media screen and (min-width: 768px) {
-    gap: 16px;
+    /* gap: 16px; */
     padding: 40px;
   }
 
   @media screen and (min-width: 1440px) {
-    gap: 24px;
+    /* gap: 24px; */
   }
 
   @media screen and (min-width: 1920px) {
-    gap: 40px;
+    /* gap: 40px; */
     padding: 80px;
   }
 `;
@@ -39,12 +39,12 @@ export const ServicesTitle = styled.h2`
   line-height: 32px;
   color: var(--typography-white);
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 
   @media screen and (min-width: 768px) {
     font-size: 32px;
     line-height: 40px;
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
   }
 
   @media screen and (min-width: 1440px) {
@@ -53,6 +53,7 @@ export const ServicesTitle = styled.h2`
   }
 
   @media screen and (min-width: 1920px) {
+    margin-bottom: 16px;
     font-size: 48px;
     line-height: 56px;
   }
@@ -68,17 +69,19 @@ export const ServicesText = styled.p`
   @media screen and (min-width: 768px) {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 0px;
+    margin-bottom: 16px;
   }
 
   @media screen and (min-width: 1440px) {
     line-height: 22px;
+    margin-bottom: 24px;
   }
 
   @media screen and (min-width: 1920px) {
     font-size: 20px;
     line-height: 28px;
-    width: 828px;
+    width: 748px;
+    margin-bottom: 40px;
   }
 `;
 
@@ -134,10 +137,12 @@ export const ServicesItem = styled.li`
   @media screen and (min-width: 1440px) {
     padding: 40px;
     width: calc((100% - (24px)) / 2);
+    height: 294px;
   }
 
   @media screen and (min-width: 1920px) {
     width: calc((100% - (24px * 3)) / 4);
+    height: auto;
   }
 `;
 
@@ -192,6 +197,7 @@ export const ServicesBtn = styled.a`
   margin-right: auto;
 
   @media screen and (min-width: 768px) {
+    margin-top: 16px;
     width: 260px;
     font-size: 15px;
     line-height: 22px;
@@ -199,11 +205,13 @@ export const ServicesBtn = styled.a`
 
   @media screen and (min-width: 1440px) {
     line-height: 18px;
+    margin-top: 24px;
   }
 
   @media screen and (min-width: 1920px) {
     font-size: 16px;
     line-height: 24px;
+    margin-top: 40px;
   }
 
   &:hover {

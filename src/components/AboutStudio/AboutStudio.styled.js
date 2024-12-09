@@ -137,7 +137,7 @@ export const DivSection = styled.div`
   }
 
   @media screen and (min-width: 1920px) {
-    max-width: 398px;
+    max-width: 402px;
     padding: 40px;
   }
 `;
@@ -183,7 +183,7 @@ export const DivSectionOurMission = styled.div`
   }
 
   @media screen and (min-width: 1920px) {
-    max-width: 398px;
+    max-width: 402px;
     padding: 40px;
   }
 `;

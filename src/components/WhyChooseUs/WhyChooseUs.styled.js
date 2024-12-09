@@ -47,7 +47,6 @@ export const ContentTitle = styled.h2`
   @media screen and (min-width: 1920px) {
     font-size: 48px;
     line-height: 56px;
-    margin-bottom: 40px;
   }
 `;
 
@@ -67,19 +66,19 @@ export const Item = styled.li`
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
-    padding: 24px;
-    height: 159px;
+    padding: 16px 24px;
   }
 
   @media screen and (min-width: 1440px) {
     flex-basis: calc((100% - 24px) / 2);
+    padding: 24px;
     height: 142px;
   }
 
   @media screen and (min-width: 1920px) {
-    padding: 40px;
+    padding: 24px 40px;
     gap: 24px;
-    height: 200px;
+    height: 160px;
   }
 `;
 
@@ -126,7 +125,6 @@ export const ItemTitle = styled.h3`
 
   @media screen and (min-width: 1440px) {
     line-height: 24px;
-    margin-bottom: 16px;
   }
 
   @media screen and (min-width: 1920px) {

@@ -79,6 +79,16 @@ export const List = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 8px;
+
+  @media screen and (min-width: 768px) {
+    gap: 8px;
+  }
+  @media screen and (min-width: 1440px) {
+    /* gap: 14px; */
+  }
+  @media screen and (min-width: 1920px) {
+    /* gap: 8px; */
+  }
 `;
 
 export const ListItem = styled.li`
@@ -110,7 +120,7 @@ export const ListItem = styled.li`
     variant === "services" &&
     css`
       @media screen and (min-width: 768px) {
-        width: 408px;
+        width: 466px;
       }
 
       @media screen and (min-width: 1440px) {
