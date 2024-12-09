@@ -17,7 +17,8 @@ const DetailInfo = ({ dataList: { details, category } }) => {
       </div>
       {details.map((item, id) => (
         <TickList
-          key={item.title}
+          // key={item.title}
+          key={`${item.title}-${id}`}
           title={item.title}
           about={item.about}
           comment={item.comment}

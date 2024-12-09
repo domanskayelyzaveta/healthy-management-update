@@ -159,3 +159,26 @@ export const SvgWrap = styled.div`
   width: 24px;
   height: 24px;
 `;
+
+export const LinkWrapper = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const LinkA = styled.a`
+  text-decoration: none;
+  color: inherit;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 20px;
+  }
+`;

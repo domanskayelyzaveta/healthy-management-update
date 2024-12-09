@@ -8,7 +8,10 @@ import {
   Comment,
   Wrapper,
   SvgWrap,
+  LinkA,
+  LinkWrapper,
 } from "./TickList.styled";
+import AboutMeSvgIcon from "../AboutMe/AboutMeSvgIcon";
 
 const TickList = ({
   title,
@@ -32,19 +35,37 @@ const TickList = ({
           </ListItem>
         ))}
       </List>
-      {comment && (
+      {/* {comment && (
         <Comment additionalComment={additionalComment}>{comment}</Comment>
-      )}
+      )} */}
+
+      {comment &&
+        (typeof comment === "object" && comment.link ? (
+          <LinkWrapper>
+            <Comment additionalComment={additionalComment}>
+              <LinkA
+                href={comment.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {comment.text}
+              </LinkA>
+            </Comment>
+            <AboutMeSvgIcon />
+          </LinkWrapper>
+        ) : (
+          <Comment additionalComment={additionalComment}>{comment}</Comment>
+        ))}
     </Wrapper>
   );
 };
 
-TickList.propTypes = {
-  title: PropTypes.string.isRequired,
-  about: PropTypes.arrayOf(PropTypes.string),
-  comment: PropTypes.string,
-  variant: PropTypes.string.isRequired,
-  additionalComment: PropTypes.bool,
-};
+// TickList.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   about: PropTypes.arrayOf(PropTypes.string),
+//   comment: PropTypes.string,
+//   variant: PropTypes.string.isRequired,
+//   additionalComment: PropTypes.bool,
+// };
 
 export default TickList;
