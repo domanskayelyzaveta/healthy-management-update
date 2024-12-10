@@ -148,6 +148,7 @@ export const SectionHeroTextUl = styled.ul`
   }
 
   @media screen and (min-width: 1440px) {
+    width: 800px;
   }
 
   @media screen and (min-width: 1920px) {

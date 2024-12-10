@@ -77,6 +77,8 @@ export const ContactBlock = styled.div`
 export const Img = styled.img`
   width: 100%;
   height: 100%;
+
+  border-radius: 16px;
 `;
 
 export const FormWrapper = styled.div`
