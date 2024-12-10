@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
   ${({ variant }) =>
     variant === "services" &&
     css`
-      @media screen and (min-width: 1920px) {
+      @media screen and (min-width: 768px) {
         gap: 16px;
       }
     `}
