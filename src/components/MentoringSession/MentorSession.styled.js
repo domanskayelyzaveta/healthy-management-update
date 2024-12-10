@@ -163,10 +163,10 @@ export const TitleH3 = styled.h3`
   @media screen and (min-width: 768px) {
     font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }
 
-  @media screen and (min-width: 1920px) {
+  @media screen and (min-width: 1440px) {
     font-size: 24px;
     margin-bottom: 16px;
   }
@@ -245,6 +245,7 @@ export const StyledOrderLink = styled.a`
 
   @media screen and (min-width: 1440px) {
     width: 193px;
+    margin-bottom: 24px;
   }
 
   @media screen and (min-width: 1920px) {
@@ -283,7 +284,7 @@ export const StyledPersonalList = styled.ul`
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 24px;
+  // margin-bottom: 24px;
   color: var(--typography-bluedark);
 
   @media screen and (min-width: 768px) {
@@ -293,6 +294,7 @@ export const StyledPersonalList = styled.ul`
 
   @media screen and (min-width: 1440px) {
     line-height: 18px;
+    margin-bottom: 24px;
   }
 
   @media screen and (min-width: 1920px) {

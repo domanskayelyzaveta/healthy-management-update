@@ -129,7 +129,7 @@ export const ListItem = styled.li`
     variant === "services" &&
     css`
       @media screen and (min-width: 768px) {
-        width: 466px;
+        width: 480px;
       }
 
       @media screen and (min-width: 1440px) {

@@ -6,10 +6,8 @@ import swal from "sweetalert";
 import useLocalStorage, { options } from "./helpers";
 import computerWebp from "../../images/desktop/computer1x.webp";
 import computer2x from "../../images/desktop/computer@2x.webp";
-import computer1440Jpg from "../../images/desktop1440/computer_1440_1x.jpg";
 import computer1440Webp from "../../images/desktop1440/computer_1440_1x.webp";
 import computer14402x from "../../images/desktop1440/computer_1440@2x.webp";
-import tabletJpg from "../../images/tablet/computer_768_1x.jpg";
 import tabletWebp from "../../images/tablet/computer_768_1x.webp";
 import tablet2x from "../../images/tablet/computer_768@2x.webp";
 import mobileWebp from "../../images/mobile/mob_computer1x.webp";
@@ -145,18 +143,17 @@ const ContactsForm = () => {
                 srcSet={`${tablet2x} 2x, ${tabletWebp} 1x`}
                 type="image/webp"
                 sizes="(min-width: 768px) 100vw (max-width: 1439px) 100vw"
-                src={tabletJpg}
+                src={tabletWebp}
                 alt="notebook"
                 loading="lazy"
               />
             </MediaQuery>
-            {/* width: 628px; height: 744px; */}
             <MediaQuery minWidth={1440} maxWidth={1919}>
               <Img
                 srcSet={`${computer14402x} 2x, ${computer1440Webp} 1x`}
                 type="image/webp"
                 sizes="(min-width: 1440px) 100vw (max-width: 1919px) 100vw"
-                src={`${computer1440Jpg}`}
+                src={`${computer1440Webp}`}
                 alt="notebook"
                 loading="lazy"
                 style={{ width: "628px", height: "744px" }}
