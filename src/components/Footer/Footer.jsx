@@ -74,7 +74,7 @@ const Footer = ({ handleSetActiveLink }) => {
                 href="#diagnostics"
                 onClick={(e) => handleSetActiveLink("diagnostics", e)}
               >
-                Менторство
+                Діагностика
               </NavFooterBtn>
               <NavFooterBtn
                 href="#projects"
