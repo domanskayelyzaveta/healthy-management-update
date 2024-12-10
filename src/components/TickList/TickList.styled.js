@@ -6,6 +6,15 @@ export const Wrapper = styled.div`
   flex-direction: column;
   // gap: 16px;
   gap: 8px;
+
+  /* Вариант "services" */
+  ${({ variant }) =>
+    variant === "services" &&
+    css`
+      @media screen and (min-width: 1920px) {
+        gap: 16px;
+      }
+    `}
 `;
 
 export const Title = styled.h4`
