@@ -92,17 +92,17 @@ export const StyledPersonalParagraph = styled.p`
   }
   @media screen and (min-width: 1440px) {
     left: 50%;
-    // width: fit-content;
     // text-align: left;
-    width: 200px;
+    min-width: auto;
+    width: 168px;
   }
 
   @media screen and (min-width: 1920px) {
     display: flex;
     justify-content: flex-start;
     left: 44%;
-    // width: 100%;
     top: 50%;
+    width: 200px;
 
     font-size: 16px;
     line-height: 1.4;
