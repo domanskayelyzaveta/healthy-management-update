@@ -21,7 +21,7 @@ const TickList = ({
   additionalComment = false,
 }) => {
   return (
-    <Wrapper>
+    <Wrapper variant={variant}>
       <Title variant={variant}>{title}</Title>
       <List>
         {about?.map((item) => (
@@ -60,12 +60,12 @@ const TickList = ({
   );
 };
 
-// TickList.propTypes = {
-//   title: PropTypes.string.isRequired,
-//   about: PropTypes.arrayOf(PropTypes.string),
-//   comment: PropTypes.string,
-//   variant: PropTypes.string.isRequired,
-//   additionalComment: PropTypes.bool,
-// };
+TickList.propTypes = {
+  title: PropTypes.string.isRequired,
+  about: PropTypes.arrayOf(PropTypes.string),
+  comment: PropTypes.string,
+  variant: PropTypes.string.isRequired,
+  additionalComment: PropTypes.bool,
+};
 
 export default TickList;

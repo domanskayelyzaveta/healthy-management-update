@@ -44,9 +44,8 @@ export const StyledContainer = styled.div`
   position: relative;
   width: 100%;
 
-
   @media screen and (min-width: 768px) {
-   width: calc((100% - (1 * 24px)) / 2);
+    width: calc((100% - (1 * 24px)) / 2);
   }
 
   @media screen and (min-width: 1440px) {
@@ -55,8 +54,6 @@ export const StyledContainer = styled.div`
 
   @media screen and (min-width: 1920px) {
     width: calc((100% - (3 * 24px)) / 4);
-  }
-
   }
 `;
 
@@ -301,6 +298,7 @@ export const StyledPersonalList = styled.ul`
   @media screen and (min-width: 1920px) {
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 0;
   }
 `;
 
