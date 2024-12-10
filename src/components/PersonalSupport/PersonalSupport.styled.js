@@ -92,7 +92,6 @@ export const StyledPersonalParagraph = styled.p`
   }
   @media screen and (min-width: 1440px) {
     left: 50%;
-    // text-align: left;
     min-width: auto;
     width: 168px;
   }
