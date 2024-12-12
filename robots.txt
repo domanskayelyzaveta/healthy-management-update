@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://healthymanagement.com.ua/sitemap.xml
+Sitemap: https://healthymanagement.com.ua
