@@ -96,7 +96,7 @@ const ContactsForm = () => {
         service: selectedOption?.value,
       };
       await axios.post(
-        "https://healthy-management.onrender.com/api/senddata",
+        "https://healthy-management-backend.onrender.com/api/senddata",
         formattedData
       );
       setFormData({
