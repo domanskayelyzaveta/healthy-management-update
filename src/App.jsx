@@ -49,7 +49,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch("https://healthy-management.onrender.com/api/wakeup");
+    fetch("https://healthy-management-backend.onrender.com/api/wakeup");
   }, []);
 
   return (
