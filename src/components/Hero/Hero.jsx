@@ -15,11 +15,10 @@ const Hero = ({ handleSetLink }) => {
     <SectionHero id="home">
       <div className="container">
         <SectionHeroTitle>
-          Бізнес-партнер з розвитку та комунікацій здорового менеджменту
+          Стратегічний архітектор здорового менеджменту у медицині
         </SectionHeroTitle>
         <SectionHeroText>
-          Будуємо ефективні стратегії здорового менеджменту для медичних
-          брендів:
+          Допомагаємо медичним брендам зростати системно:
         </SectionHeroText>
         <SectionHeroTextUl>
           {listItems.map((item, index) => (

@@ -167,6 +167,7 @@ export const SectionAboutStudioValues = styled.h3`
 
 export const DivSectionOurMission = styled.div`
   max-width: 327px;
+  height: 176px;
   padding: 24px;
   border-radius: 16px;
   background: var(--background-bluedark);
@@ -175,11 +176,13 @@ export const DivSectionOurMission = styled.div`
   @media screen and (min-width: 768px) {
     max-width: 332px;
     padding: 40px;
+    height: 234px;
   }
 
   @media screen and (min-width: 1440px) {
     padding: 24px;
     max-width: 302px;
+    height: 178px;
   }
 
   @media screen and (min-width: 1920px) {
