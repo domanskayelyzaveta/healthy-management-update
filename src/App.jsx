@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import AboutMe from "./components/AboutMe/AboutMe";
 import AboutStudio from "./components/AboutStudio/AboutStudio";
 import BusinessTools from "./components/BusinessTools/BusinessTools";
@@ -13,7 +14,7 @@ import WorkPrinciples from "./components/WorkPrinciples/WorkPrinciples";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import ContactsForm from "./components/ContactsForm/ContactsForm";
 import Services from "./components/Services/Services";
-import { useEffect } from "react";
+import Experience from "./components/Experience/Experience";
 
 function App() {
   const handleSetActiveLink = (link, event) => {
@@ -66,6 +67,7 @@ function App() {
         <MentoringSession handleSetLink={handleSetActiveLink} />
         <PersonalSupport handleSetLink={handleSetActiveLink} />
         <ProjectSection handleSetActiveLink={handleSetActiveLink} />
+        <Experience />
         <BusinessTools />
         <ContactsForm />
         <ScrollToTop />
