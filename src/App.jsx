@@ -10,6 +10,7 @@ import Diagnostics from "./components/Diagnostics/Diagnostics";
 import MentoringSession from "./components/MentoringSession/MentoringSession";
 import PersonalSupport from "./components/PersonalSupport/PersonalSupport";
 import ProjectSection from "./components/ProjectSection/ProjectSection";
+import ExpertiseSection from "./components/ExpertiseSection/ExpertiseSection";
 import WorkPrinciples from "./components/WorkPrinciples/WorkPrinciples";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import ContactsForm from "./components/ContactsForm/ContactsForm";
@@ -67,6 +68,7 @@ function App() {
         <MentoringSession handleSetLink={handleSetActiveLink} />
         <PersonalSupport handleSetLink={handleSetActiveLink} />
         <ProjectSection handleSetActiveLink={handleSetActiveLink} />
+        <ExpertiseSection handleSetActiveLink={handleSetActiveLink} />
         <Experience />
         <BusinessTools />
         <ContactsForm />

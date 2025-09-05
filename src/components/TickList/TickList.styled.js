@@ -38,6 +38,7 @@ export const Title = styled.h4`
       @media screen and (min-width: 1920px) {
         font-size: 20px;
         line-height: calc(28 / 20);
+        width: 464px;
       }
     `}
 
