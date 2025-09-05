@@ -6,7 +6,6 @@ import { useEffect } from "react";
 
 const OPTIONS = {
   loop: true,
-  direction: "rtl",
 };
 
 const Carousel = () => {

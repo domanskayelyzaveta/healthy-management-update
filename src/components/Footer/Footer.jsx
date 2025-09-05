@@ -45,7 +45,7 @@ const Footer = ({ handleSetActiveLink }) => {
           onClick={(e) => handleSetActiveLink("home", e)}
           aria-label="Link to start"
         >
-          <svg width="227" height="40">
+          <svg width="208" height="40">
             <use href={`${sprite}#logo-white`} />
           </svg>
         </a>

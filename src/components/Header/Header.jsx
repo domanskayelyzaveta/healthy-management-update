@@ -70,7 +70,7 @@ const Header = ({ handleSetActiveLink }) => {
               onClick={(e) => handleSetActiveLink("home", e)}
               aria-label="Logo link Healthy Management"
             >
-              <svg width={isDesktop1440 ? "227" : "40"} height="40">
+              <svg width={isDesktop1440 ? "260" : "40"} height="40">
                 <use
                   href={
                     isDesktop1440
