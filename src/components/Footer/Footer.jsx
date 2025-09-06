@@ -82,6 +82,12 @@ const Footer = ({ handleSetActiveLink }) => {
               >
                 Проєкти
               </NavFooterBtn>
+              <NavFooterBtn
+                href="#expertise"
+                onClick={(e) => handleSetActiveLink("expertise", e)}
+              >
+                Експертиза
+              </NavFooterBtn>
             </NavFooter>
             <TeamBtn onClick={handleOpenModal}>
               created by GoIT students

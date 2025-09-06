@@ -35,6 +35,7 @@ const Header = ({ handleSetActiveLink }) => {
       "diagnostics",
       "projects",
       "contact",
+      "expertise",
     ];
     const currentSection = sections.find((section) => {
       const sectionElement = document.getElementById(section);
