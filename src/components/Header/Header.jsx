@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import sprite from "../../images/sprite.svg";
-// import svgMobile from "../../images/svgMobileHeader/symbol-defs.svg";
+import logo from "../../images/sprite.svg";
+// import svgMobile from "public/symbol-defs.svg";
 import {
   HeaderAddress,
   Headers,
@@ -75,8 +75,8 @@ const Header = ({ handleSetActiveLink }) => {
                 <use
                   href={
                     isDesktop1440
-                      ? `${sprite}#logo-black`
-                      : `${sprite}#icon-g10`
+                      ? `${logo}#logo-black`
+                      : `/symbol-defs.svg#icon-g10`
                   }
                 ></use>
               </svg>
@@ -115,8 +115,8 @@ const Header = ({ handleSetActiveLink }) => {
                 <use
                   href={
                     isTabletSvg
-                      ? `${sprite}#icon-menuburgerhorizontaltablet`
-                      : `${sprite}#icon-menuburger`
+                      ? `/symbol-defs.svg#icon-menuburgerhorizontaltablet`
+                      : `/symbol-defs.svg#icon-menuburger`
                   }
                 ></use>
               </SvgMobileHeader>
