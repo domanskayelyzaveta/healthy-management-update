@@ -4,4 +4,5 @@ export const navItems = [
   { id: "services", label: "Послуги" },
   { id: "diagnostics", label: "Діагностика" },
   { id: "projects", label: "Проєкти" },
+  { id: "expertise", label: "Експертиза" },
 ];
