@@ -1,12 +1,7 @@
 import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import logo from "../../images/sprite.svg";
-import logoMob from "../../images/svgMobileHeader/logo.svg";
-import burgerTab from "../../images/svgMobileHeader/menu-burger-horizontal.svg";
-import burger from "../../images/svgMobileHeader/menu-burger.svg";
-
-// import svgMobile from "../../images/svgMobileHeader/symbol-defs.svg";
-
+import svgMobile from "../../images/svgMobileHeader/symbol-defs.svg";
 import {
   HeaderAddress,
   Headers,
@@ -78,7 +73,11 @@ const Header = ({ handleSetActiveLink }) => {
             >
               <svg width={isDesktop1440 ? "260" : "40"} height="40">
                 <use
-                  href={isDesktop1440 ? `${logo}#logo-black` : `${logoMob}`}
+                  href={
+                    isDesktop1440
+                      ? `${logo}#logo-black`
+                      : `${svgMobile}#icon-g10`
+                  }
                 ></use>
               </svg>
             </a>
@@ -113,7 +112,13 @@ const Header = ({ handleSetActiveLink }) => {
               aria-label="Open mobile menu"
             >
               <SvgMobileHeader>
-                <use href={isTabletSvg ? `${burgerTab}` : `${burger}`}></use>
+                <use
+                  href={
+                    isTabletSvg
+                      ? `${svgMobile}#icon-menuburgerhorizontaltablet`
+                      : `${svgMobile}#icon-menuburger`
+                  }
+                ></use>
               </SvgMobileHeader>
             </ButtonMobileHeader>
           )}
