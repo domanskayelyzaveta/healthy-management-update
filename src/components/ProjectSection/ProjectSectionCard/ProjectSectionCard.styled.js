@@ -21,7 +21,7 @@ export const ListItem = styled.li`
 
     padding: 40px;
     // height: 676px;
-    height: 808px;
+    height: 996px;
 
     &:hover > div {
       opacity: 1;

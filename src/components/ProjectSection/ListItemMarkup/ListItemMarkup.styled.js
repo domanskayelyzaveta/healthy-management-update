@@ -69,6 +69,10 @@ export const HiddenInfo = styled.div`
   transition: opacity var(--transition-dur-and-func);
 
   @media screen and (min-width: 768px) {
+    min-height: 996px;
+  }
+
+  @media screen and (min-width: 1440px) {
     min-height: 808px;
   }
 `;
@@ -80,6 +84,14 @@ export const StyledImage = styled.img`
   object-fit: cover;
 
   @media screen and (min-width: 768px) {
-    height: 300px;
+    height: 608px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    height: 330px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    height: 376px;
   }
 `;

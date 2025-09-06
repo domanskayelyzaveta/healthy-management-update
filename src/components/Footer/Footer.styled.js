@@ -30,6 +30,7 @@ export const FooterContainer = styled.div`
   }
 
   @media screen and (min-width: 1920px) {
+    gap: 24px 54px;
     padding: 40px 120px;
     justify-content: space-between;
   }
