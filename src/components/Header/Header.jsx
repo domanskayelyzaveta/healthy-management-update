@@ -89,11 +89,6 @@ const Header = ({ handleSetActiveLink }) => {
                   />
                 </svg>
               )}
-              {/* <svg width={isDesktop1440 ? "260" : "40"} height="40">
-                <use
-                  href={isDesktop1440 ? `${logo}#logo-black` : "logo.svg"}
-                ></use>
-              </svg> */}
             </a>
           )}
 
