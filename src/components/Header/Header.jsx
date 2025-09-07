@@ -73,11 +73,7 @@ const Header = ({ handleSetActiveLink }) => {
             >
               <svg width={isDesktop1440 ? "260" : "40"} height="40">
                 <use
-                  href={
-                    isDesktop1440
-                      ? `${logo}#logo-black`
-                      : `${svgMobile}#icon-g10`
-                  }
+                  href={isDesktop1440 ? `${logo}#logo-black` : "logo.svg"}
                 ></use>
               </svg>
             </a>
@@ -113,11 +109,7 @@ const Header = ({ handleSetActiveLink }) => {
             >
               <SvgMobileHeader>
                 <use
-                  href={
-                    isTabletSvg
-                      ? `${svgMobile}#icon-menuburgerhorizontaltablet`
-                      : `${svgMobile}#icon-menuburger`
-                  }
+                  href={isTabletSvg ? "burger-tablet.svg" : "burger.svg"}
                 ></use>
               </SvgMobileHeader>
             </ButtonMobileHeader>
