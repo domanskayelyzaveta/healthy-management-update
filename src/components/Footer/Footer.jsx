@@ -150,7 +150,7 @@ const Footer = ({ handleSetActiveLink }) => {
         <ContactsFooter>
           <Social>
             <SocialItem
-              href="https://www.facebook.com/profile.php?id=61551346490841"
+              href="https://www.facebook.com/olga.polishchuk.14"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Link to open Facebook"
@@ -160,7 +160,7 @@ const Footer = ({ handleSetActiveLink }) => {
               </svg>
             </SocialItem>
             <Instagram
-              href="https://www.instagram.com/healthymanagement_ua/"
+              href="https://www.instagram.com/olga_healthm/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Link to open Instagram"
