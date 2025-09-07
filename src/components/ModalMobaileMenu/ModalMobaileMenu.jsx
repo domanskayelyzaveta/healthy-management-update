@@ -30,7 +30,10 @@ const ModalMobaileMenu = ({ onClose, handleSetActiveLink }) => {
               handleSetActiveLink("home", e);
             }}
           >
-            <ModalMobaileMenuSvgIcon name="icon-g10" width={40} />
+            <svg width="40" height="40">
+              <use href="logo.svg"></use>
+            </svg>
+            {/* <ModalMobaileMenuSvgIcon name="icon-g10" width={40} /> */}
           </a>
           <ContactMenu
             href="#contact"
@@ -42,11 +45,14 @@ const ModalMobaileMenu = ({ onClose, handleSetActiveLink }) => {
             Контакт
           </ContactMenu>
           <ButtonMenuMobile type="button" onClick={() => onClose()}>
-            <ModalMobaileMenuSvgIcon
+            <svg width={isMobail ? 40 : 70} height={40}>
+              <use href="close.svg"></use>
+            </svg>
+            {/* <ModalMobaileMenuSvgIcon
               name="icon-close"
               stroke={"var(--primary-black)"}
               width={isMobail ? 40 : 70}
-            />
+            /> */}
           </ButtonMenuMobile>
         </DivMobileMenu>
 
