@@ -188,6 +188,7 @@ export const DivSectionOurMission = styled.div`
   @media screen and (min-width: 1920px) {
     max-width: 402px;
     padding: 40px;
+    height: 224px;
   }
 `;
 
